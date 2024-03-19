@@ -1,4 +1,4 @@
-# project_archive
+# PROJECTS
 
 
 Here a description for every project, from the most to the least recent.
