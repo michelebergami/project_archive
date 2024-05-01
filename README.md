@@ -3,6 +3,14 @@
 
 Here a description for every project, from the most to the least recent.
 
+## Investigating Speech Emotion Recognition Models: Comparative Analysis and Strategies for Accuracy Improvement
+This was a group project for the ST456 - Deep Learning. I worked in collaboration with Simone Moawad, Lucy Malabar and Elisabetta Sanasi
+We delved into a comprehensive analysis of the latest papers on speech emotion recognition (SER) and created our own deep learning models using Keras and TensorFlow. The first one was a Convolutional Neural Network (CNN) and the other one a parallel CNN-RNN hybrid. With a keen eye on improving accuracies, we explored diverse data augmentation techniques and tackled overfitting head-on. In the "*in_depth_analysis*" notebook we worked on trying to interpret the model using Grad-CAMs and studying a possible gender bias.
+
+My technical focus revolved around the implementation of the CNN, experimenting with varied overfitting mitigation strategies, and studying possible intepretations of the GradCAMs.
+
+<br>
+
 ## Statistics Practitioners' Challenge
 This was a group project for the LSE Statistics Practitioners' Challenge in collaboration of an important insurance company. I worked in collaboration with Simone Moawad, Elisabetta Sanasi, Barath Raaj and Anushka Agrawal.
 We analysed data about an insurance company, the main issue was related to imbalanced data. We explored the python library resreg, containing the possibility to implement several resampling techniques, from random undersampling to SMOTER and WERCS.
