@@ -4,7 +4,7 @@
 Here a description for every project, from the most to the least recent.
 
 ## Deep Reinforcement Learning for football players' decisions evaluation
-This project, conducted in collaboration with Simone Moawad and Omar Almumoteh, aims to objectively evaluate football players' decisions using Deep Reinforcement Learning (DRL). By developing a Decision Value (DV) model inspired by Pulis (2023), we sought to improve upon traditional metrics that often miss the game's contextual nuances. Despite computational limitations, our findings highlight the potential of DRL to provide deeper insights into player decision-making and performance evaluation.
+This project (*drl_football_analytics.html*), conducted in collaboration with Simone Moawad and Omar Almumoteh, aims to objectively evaluate football players' decisions using Deep Reinforcement Learning (DRL). By developing a Decision Value (DV) model inspired by Pulis (2023), we sought to improve upon traditional metrics that often miss the game's contextual nuances. Despite computational limitations, our findings highlight the potential of DRL to provide deeper insights into player decision-making and performance evaluation.
 
 My main contributions focused on the preprocessing of the data and the RL implementation.
 
