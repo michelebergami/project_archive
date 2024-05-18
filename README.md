@@ -3,6 +3,13 @@
 
 Here a description for every project, from the most to the least recent.
 
+## Deep Reinforcement Learning for football players' decisions evaluation
+This project, conducted in collaboration with Simone Moawad and Omar Almumoteh, aims to objectively evaluate football players' decisions using Deep Reinforcement Learning (DRL). By developing a Decision Value (DV) model inspired by Pulis (2023), we sought to improve upon traditional metrics that often miss the game's contextual nuances. Despite computational limitations, our findings highlight the potential of DRL to provide deeper insights into player decision-making and performance evaluation.
+
+My main contributions focused on the preprocessing of the data and the RL implementation.
+
+<br>
+
 ## Investigating Speech Emotion Recognition Models: Comparative Analysis and Strategies for Accuracy Improvement
 This was a group project for the ST456 - Deep Learning. I worked in collaboration with Simone Moawad, Lucy Malabar and Elisabetta Sanasi
 We delved into a comprehensive analysis of the latest papers on speech emotion recognition (SER) and created our own deep learning models using Keras and TensorFlow. The first one was a Convolutional Neural Network (CNN) and the other one a parallel CNN-RNN hybrid. With a keen eye on improving accuracies, we explored diverse data augmentation techniques and tackled overfitting head-on. In the "*in_depth_analysis*" notebook we worked on trying to interpret the model using Grad-CAMs and studying a possible gender bias.
@@ -11,12 +18,6 @@ My technical focus revolved around the implementation of the CNN, experimenting 
 
 <br>
 
-## Statistics Practitioners' Challenge
-This was a group project for the LSE Statistics Practitioners' Challenge in collaboration of an important insurance company. I worked in collaboration with Simone Moawad, Elisabetta Sanasi, Barath Raaj and Anushka Agrawal.
-We analysed data about an insurance company, the main issue was related to imbalanced data. We explored the python library resreg, containing the possibility to implement several resampling techniques, from random undersampling to SMOTER and WERCS.
-At the same time we employed different predictive models: Poisson Regression, Random Forests, XGBoost and REBAGG.
-
-<br>
 
 ## Transport in London
 This was a group project for ST445 - Managing and Visualising Data at LSE. I worked in collaboration with Simone Moawad and Adleena Shakir.
@@ -28,7 +29,7 @@ We analysed some datasets about public transportation in London and we aimed at 
 4. What are the key factors influencing the number of TfL journeys?
 5. Can historical data on TfL journeys be used to predict future passenger numbers accurately, and can we create a model to predict the number of TfL journeys in 2024?
 
-We used visualisations, linear regression and SARIMA models.
+We used visualisations, linear regression and SARIMA models, all shown in the tfl_project.html file.
 
 My technical contribution was mainly on the creation of the ML models.
 
@@ -75,15 +76,6 @@ I developed a bot on Python for the children game "chopsticks." The rules of the
 
 I used an alpha-beta pruning algorithm: this checks if it is possible to win in the following 10 moves, with any possible action of the opponent (assumed to behave in the same way). If a win is found, the bot chooses immediately (pruning) the relevant move, if not it continues to search. An arbitrary move is selected for the first stages to reduce the game time.
 
-<br>
 
-## Driving Test Centre
-This was an individual project for ST447 - Statistical Methods and Data Analysis at LSE.
 
-The aim of this project is to help an hypothetical friend to decide where to take the practical car test. They must choose between the nearest test centre to their home and the nearest test centre to the London School of Economics. I needed to answer the following questions:
-1. What is the expected passing rate at the nearest test centre to their home?
-2. What is the expected passing rate at the nearest test centre to the LSE?
-3. Of these two locations, where should our friend take the test? Is there any evidence to (statistically) support this suggestion?
-
-I used Wald tests and logistic regression.
 
